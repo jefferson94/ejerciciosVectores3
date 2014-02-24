@@ -99,10 +99,12 @@ public class EjerciciosdeVectores3 {
         for (int i = 0; i < vector.length; i++) {
 
             for (int j = i + 1; j < vector.length; j++) {
+               
+               if (vector[i]>vector[j]){
                 aux = vector[i];
                 vector[i] = vector[j];
                 vector[j] = aux;
-
+}
             }
 
         }
